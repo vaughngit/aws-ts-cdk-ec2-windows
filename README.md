@@ -3,15 +3,15 @@
 This AWS CDK project written in typescript deploys a single Windows EC2 instance to the default VPC, with permission to integrate with AWS Systems Manager Session Manager and Fleet Manager remote desktop features. A security group is created that blocks all inbound access over the network to the instance therefore terminal and console access can only be achieved via the AWS Systems Manager
 
 ## CDK prerequisites: 
-#### 1)  AWS CLI - Installing or updating the latest version of the AWS CLI:  https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-#### 2) Configure the AWS CLI:  https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-environment
+* AWS CLI - Installing or updating the latest version of the AWS CLI:  https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+* Configure the AWS CLI:  https://docs.aws.amazon.com/cdk/v2/guide/cli.html#cli-environment
     aws configure
 
 ## Install the CDK: 
-#### The AWS CDK Toolkit is installed via the Node Package Manager which can be found and downloaded from here (https://nodejs.org/en/download/) 
+* The AWS CDK Toolkit is installed via the Node Package Manager which can be found and downloaded from here (https://nodejs.org/en/download/) 
     npm install -g aws-cdk             # install latest version
 
-### Download this project via browser or git cli: (https://git-scm.com/downloads) 
+* Download this project via browser or git cli: (https://git-scm.com/downloads) 
     git clone 
     cd aws-ts-cdk-ec2-windows 
     npm install
