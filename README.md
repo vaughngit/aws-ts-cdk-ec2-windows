@@ -1,5 +1,5 @@
 
-# AWS CDK Typescript Windows EC2 project
+# AWS CDK Typescript Windows EC2 Instance
 This AWS CDK project written in typescript deploys a single Windows EC2 instance to the default VPC, with permission to integrate with AWS Systems Manager Session Manager and Fleet Manager remote desktop features. A security group is created that blocks all inbound access over the network to the instance therefore terminal and console access can only be achieved via the AWS Systems Manager
 
 ## CDK prerequisites: 
