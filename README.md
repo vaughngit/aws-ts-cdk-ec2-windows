@@ -18,11 +18,11 @@ This AWS CDK project written in typescript deploys a single Windows EC2 instance
     cdk synth
     cdk bootstrap
     cdk deploy 
-* note the "InstanceId", "Password", and "UserName" Outputs that will be displayed in your desktop terminal console once deployment completes. 
+> note the "InstanceId", "Password", and "UserName" Outputs that will be displayed in your desktop terminal console once deployment completes. 
 
 
 ## RDP into instace from browser via the System Manager's Fleet Manager console feature: 
-* The Google Chrome browser appears to provide the best experience (ie copy/paste features) 
+> The Google Chrome browser appears to provide the best experience (ie copy/paste features) 
    1)  From the AWS Home Page Console navigate to -> Systems Manager Console- > Fleet Manager feature under the "Node Management" header and the newly deployed ec2 instance should be listed in the "Managed nodes" list on this landing page.  
 
    2) Check the box next to the new windows ec2 instance
@@ -33,7 +33,7 @@ This AWS CDK project written in typescript deploys a single Windows EC2 instance
 
    5) Once connected click on the instanceid in the header section to expand the remote display or select the full screen option in the top right-hand coner of the display.  
 
-* See this reference for addditional guidance in setting up CDK within your AWS Environment: https://docs.aws.amazon.com/cdk/v2/guide/cli.html
+> See this reference for addditional guidance in setting up CDK within your AWS Environment: https://docs.aws.amazon.com/cdk/v2/guide/cli.html
 
 
 <!-- # Windows EC2 Example in AWS CDK - Complete Guide
