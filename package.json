@@ -17,6 +17,8 @@
     "@aws-cdk/aws-ec2": "1.142.0",
     "@aws-cdk/core": "1.142.0",
     "aws-cdk": "2.10.0",
+    "aws-cdk-lib": "^2.18.0",
+    "constructs": "^10.0.100",
     "generate-password": "^1.7.0",
     "npm-check-updates": "^12.2.1"
   },
